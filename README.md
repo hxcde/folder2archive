@@ -1,4 +1,4 @@
-# folderarchive
+# Folder archivation
 Daily Folder Backup and Rotation for Linux
 
 ## Key Features:
