@@ -13,3 +13,8 @@ Daily Folder Backup and Rotation for Linux
 - The zip command is used to create the zipped archive and append the date to the file name.
 - The find command is used to delete files older than 14 days in the archive directory.
 - The cron entry schedules the script to run daily at 13:00 (1 PM).
+
+Add the following to cron:
+```bash
+0 13 * * * /path/to/script/zip_folder_daily.sh
+```
