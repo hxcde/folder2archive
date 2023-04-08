@@ -14,6 +14,14 @@ Daily Folder Backup and Rotation for Linux
 - The find command is used to delete files older than 14 days in the archive directory.
 - The cron entry schedules the script to run daily at 13:00 (1 PM).
 
+Install git and zip
+```bash
+apt install git zip -y
+```
+Clone the repository
+```bash
+git clone https://github.com/hxcde/folderarchive.git
+```
 Add the following to cron:
 ```bash
 0 13 * * * /path/to/script/zip_folder_daily.sh
