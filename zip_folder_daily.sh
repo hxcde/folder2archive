@@ -12,5 +12,5 @@ DATE=$(date +%Y-%m-%d)
 # Create the zipped archive and append the date
 zip -r "${ARCHIVE_DIR}/folder_${DATE}.zip" "${SOURCE_DIR}"
 
-# Delete files older than 14 days
+# Delete files older than 14 days (change the number)
 find "${ARCHIVE_DIR}" -name "folder_*.zip" -mtime +13 -exec rm {} \;
