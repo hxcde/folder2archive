@@ -24,5 +24,5 @@ git clone https://git.moelle.space/ymoelle/folderarchive.git
 ```
 Add the following to cron:
 ```bash
-0 13 * * * /path/to/script/zip_folder_daily.sh
+0 13 * * * sh /path/to/script/zip_folder_daily.sh
 ```
