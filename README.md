@@ -20,7 +20,7 @@ apt install git zip -y
 ```
 Clone the repository
 ```bash
-git clone https://git.moelle.space/ymoelle/folderarchive.git
+git clone https://git.moelle.space/hxcde/folderarchive.git
 ```
 Add the following to cron:
 ```bash
