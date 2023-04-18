@@ -14,20 +14,20 @@
 - The find command is used to delete files older than 14 days in the archive directory. (edit in the script as needed)
 - The cron entry schedules the script to run daily at 13:00 (1 PM).
 
-<details> 
-<summary>Automatic installation </summary>
-
 ## Automatic installation
+<details> 
+<summary>installation </summary>
+
 ```bash
 sh -c "$(curl -L https://git.moelle.space/hxcde/folderarchive/raw/branch/main/install.sh)"
 ```
 </details> 
 
-## Manual installation
-<details> 
-<summary> installation </summary>
 
 ## Manual installation
+<details> 
+<summary>installation </summary>
+
 Install git and zip
 ```bash
 apt install git zip -y
