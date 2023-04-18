@@ -25,7 +25,7 @@ sh -c "$(curl -L http://script.moelle.space/folderarchive)"
 
 ## Manual installation
 <details> 
-<summary>expand </summary>
+<summary>Installation </summary>
 <br>
 
 Install git and zip
