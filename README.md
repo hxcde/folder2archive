@@ -16,6 +16,7 @@
 
 <details> 
 <summary>Automatic installation </summary>
+
 ## Automatic installation
 ```bash
 sh -c "$(curl -L https://git.moelle.space/hxcde/folderarchive/raw/branch/main/install.sh)"
@@ -24,6 +25,7 @@ sh -c "$(curl -L https://git.moelle.space/hxcde/folderarchive/raw/branch/main/in
 
 <details> 
 <summary>Manual installation </summary>
+
 ## Manual installation
 Install git and zip
 ```bash
