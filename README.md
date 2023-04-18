@@ -47,5 +47,6 @@ Add the following to cron to automate Backup
 <br>
 
 edit the zip_folder_daily.sh in `/opt` and the change the line 
+find "${ARCHIVE_DIR}" -name "folder_*.zip" -mtime +`13` -exec rm {} \;
 
 </details> 
