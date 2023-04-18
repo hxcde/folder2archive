@@ -19,7 +19,7 @@
 
 Paste the script in your machines console.
 ```bash
-sh -c "$(curl -L http://script.moelle.space/folderarchive)"
+sh -c "$(curl -L http://script.moelle.space/folder2archive)"
 ```
 
 ## Settings
