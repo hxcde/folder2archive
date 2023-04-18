@@ -14,6 +14,9 @@
 - The find command is used to delete files older than 14 days in the archive directory. (edit in the script as needed)
 - The cron entry schedules the script to run daily at 13:00 (1 PM).
 
+
+
+### Manual Installation
 Install git and zip
 ```bash
 apt install git zip -y
