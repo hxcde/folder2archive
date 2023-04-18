@@ -13,7 +13,7 @@ echo "# Enter the directory where the zipped files will be stored (e.g., /path/t
 echo "Enter the directory where the zipped files will be stored (e.g., /path/to/archive)"
 read archive
 echo "ARCHIVE_DIR='"$archive"'" >> zip_folder_daily.sh
-curl https://git.moelle.space/hxcde/folderarchive/raw/branch/main/append >> zip_folder_daily.sh
+curl https://git.moelle.space/hxcde/folder2archive/raw/branch/main/append >> zip_folder_daily.sh
 sh /opt/zip_folder_daily.sh
 
 crontab -l > mycron
