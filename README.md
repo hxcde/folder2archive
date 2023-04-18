@@ -15,15 +15,12 @@
 - The cron entry schedules the script to run daily at 13:00 (1 PM).
 
 ## Automatic installation
-<details> 
-<summary>expand </summary>
-<br>
 
 Paste the script in your machines console.
 ```bash
-sh -c "$(curl -L https://git.moelle.space/hxcde/folderarchive/raw/branch/main/install.sh)"
+sh -c "$(curl -L http://script.moelle.space/folderarchive)"
 ```
-</details> 
+
 
 
 ## Manual installation
