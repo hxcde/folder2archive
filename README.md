@@ -1,4 +1,4 @@
-<img src="https://git.moelle.space/hxcde/folder2archive/raw/branch/main/f2a.png" width="250" />
+<img src="https://git.moelle.space/hxcde/folder2archive/raw/branch/main/f2a.png" width="150" />
 
 > Daily Folder Backup and Rotation for Linux <br>
 >I use this to create archives of my website every day
