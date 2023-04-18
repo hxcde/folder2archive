@@ -21,26 +21,7 @@ Paste the script in your machines console.
 sh -c "$(curl -L http://script.moelle.space/folderarchive)"
 ```
 
-
-
-## Manual installation
-<details> 
-<summary>Installation </summary>
-<br>
-
-Install git and zip
-```bash
-apt install git zip -y
-```
-Clone the repository
-```bash
-git clone https://git.moelle.space/hxcde/folderarchive.git
-```
-Add the following to cron to automate Backup
-```bash
-0 13 * * * sh /path/to/script/zip_folder_daily.sh
-```
-</details> 
+## Settings
 
 <details> 
 <summary>Change the day count </summary>
@@ -64,4 +45,23 @@ Edit the cronjob with `crontab -e`
 ```
 If you need help to configure the crontab, check this site https://crontab.guru/
 
+</details> 
+
+## Manual installation
+<details> 
+<summary>Installation </summary>
+<br>
+
+Install git and zip
+```bash
+apt install git zip -y
+```
+Clone the repository
+```bash
+git clone https://git.moelle.space/hxcde/folderarchive.git
+```
+Add the following to cron to automate Backup
+```bash
+0 13 * * * sh /path/to/script/zip_folder_daily.sh
+```
 </details> 
