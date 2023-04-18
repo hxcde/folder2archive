@@ -1,4 +1,4 @@
-# Folder archive
+# Folder2Archive
 > Daily Folder Backup and Rotation for Linux <br>
 >I use this to create archives of my website every day
 
