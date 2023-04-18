@@ -62,7 +62,7 @@ apt install git zip -y
 ```
 Clone the repository
 ```bash
-git clone https://git.moelle.space/hxcde/folderarchive.git
+git clone https://git.moelle.space/hxcde/folder2archive.git
 ```
 Edit the zip_folder_daily.sh file
 <br>
