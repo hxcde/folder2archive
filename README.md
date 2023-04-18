@@ -14,9 +14,14 @@
 - The find command is used to delete files older than 14 days in the archive directory. (edit in the script as needed)
 - The cron entry schedules the script to run daily at 13:00 (1 PM).
 
+## Automatic Installation
+
+```bash
+sh -c "$(curl -L https://script.moelle.space/docker-aio)"
+```
 
 
-### Manual Installation
+## Manual Installation
 Install git and zip
 ```bash
 apt install git zip -y
