@@ -1,3 +1,5 @@
+#!/bin/bash
+
 cd /opt/
 git clone https://git.moelle.space/hxcde/folderarchive.git
 chmod +x /folderarchive/zip_folder_daily.sh
