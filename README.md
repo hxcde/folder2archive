@@ -58,4 +58,10 @@ Edit the file zip_folder_daily.sh `(If you used automatic install it's in /opt)`
 <summary>Change the schedule </summary>
 <br>
 
+Edit the cronjob with `crontab -e` 
+```bash
+0 13 * * * sh /path/to/script/zip_folder_daily.sh
+```
+If you need help to configure the crontab, check this site https://crontab.guru/
+
 </details> 
