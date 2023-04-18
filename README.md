@@ -32,7 +32,7 @@ Edit the file zip_folder_daily.sh `(If you used automatic install it's in /opt)`
 ```bash
 find "${ARCHIVE_DIR}" -name "folder_*.zip" -mtime +13 -exec rm {} \;
 ```
-Example: Chamge the 13 to 29
+Example: Chamge the `13` to `29`
 ```bash
 find "${ARCHIVE_DIR}" -name "folder_*.zip" -mtime +29 -exec rm {} \;
 ```
