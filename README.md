@@ -41,3 +41,11 @@ Add the following to cron to automate Backup
 0 13 * * * sh /path/to/script/zip_folder_daily.sh
 ```
 </details> 
+
+<details> 
+<summary>Change the day count </summary>
+<br>
+
+edit the zip_folder_daily.sh in `/opt` and the change the line 
+
+</details> 
