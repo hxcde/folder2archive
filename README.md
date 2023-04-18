@@ -17,6 +17,7 @@
 ## Automatic installation
 <details> 
 <summary>expand </summary>
+<br>
 
 Paste the script in your machines console.
 ```bash
