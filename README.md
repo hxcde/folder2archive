@@ -1,5 +1,6 @@
 # Folder archive
-> Daily Folder Backup and Rotation for Linux
+> Daily Folder Backup and Rotation for Linux <br>
+>I use this to create archives of my website every day
 
 ## Key Features:
 - Daily automated backups of a specified folder using the zip utility.
