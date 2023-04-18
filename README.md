@@ -30,11 +30,11 @@ sh -c "$(curl -L http://script.moelle.space/folderarchive)"
 Edit the file zip_folder_daily.sh `(If you used automatic install it's in /opt)` and change the day number in line 16.
 - If you want 30 days, it's `30 minus 1`, so `29`
 ```bash
-find "${ARCHIVE_DIR}" -name "folder_*.zip" -mtime +`13` -exec rm {} \;
+find "${ARCHIVE_DIR}" -name "folder_*.zip" -mtime +13 -exec rm {} \;
 ```
-#### to ->
+Example: Chamge the 13 to 29
 ```bash
-find "${ARCHIVE_DIR}" -name "folder_*.zip" -mtime +`29` -exec rm {} \;
+find "${ARCHIVE_DIR}" -name "folder_*.zip" -mtime +29 -exec rm {} \;
 ```
 </details> 
 
