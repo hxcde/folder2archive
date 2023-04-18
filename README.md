@@ -23,8 +23,9 @@ sh -c "$(curl -L https://git.moelle.space/hxcde/folderarchive/raw/branch/main/in
 ```
 </details> 
 
+## Manual installation
 <details> 
-<summary> ## Manual installation </summary>
+<summary> installation </summary>
 
 ## Manual installation
 Install git and zip
