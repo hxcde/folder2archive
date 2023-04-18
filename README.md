@@ -1,9 +1,10 @@
-<img src="https://git.moelle.space/hxcde/folder2archive/raw/branch/main/f2a.png" width="150" />
-<br>
+# Folder2Archive
+<img align="right" width="150" src="https://git.moelle.space/hxcde/folder2archive/raw/branch/main/f2a.png">
 <br>
 
 > Daily Folder Backup and Rotation for Linux <br>
 > I use this to create archives of my website every day
+
 
 ## Key Features:
 - Daily automated backups of a specified folder using the zip utility.
