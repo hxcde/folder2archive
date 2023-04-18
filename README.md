@@ -16,8 +16,9 @@
 
 ## Automatic installation
 <details> 
-<summary>installation </summary>
+<summary>expand </summary>
 
+Paste the script in your machines console.
 ```bash
 sh -c "$(curl -L https://git.moelle.space/hxcde/folderarchive/raw/branch/main/install.sh)"
 ```
@@ -26,7 +27,8 @@ sh -c "$(curl -L https://git.moelle.space/hxcde/folderarchive/raw/branch/main/in
 
 ## Manual installation
 <details> 
-<summary>installation </summary>
+<summary>expand </summary>
+<br>
 
 Install git and zip
 ```bash
