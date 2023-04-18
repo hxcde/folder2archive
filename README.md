@@ -49,5 +49,7 @@ Add the following to cron to automate Backup
 Edit the file zip_folder_daily.sh `(If you used automatic install it's in /opt)` and change the day number in line 16.
 - If you want 30 days, it's `30 minus 1`, so `29`
 > find "${ARCHIVE_DIR}" -name "folder_*.zip" -mtime +`13` -exec rm {} \;
+to ->
+> find "${ARCHIVE_DIR}" -name "folder_*.zip" -mtime +`29` -exec rm {} \;
 
 </details> 
