@@ -14,14 +14,17 @@
 - The find command is used to delete files older than 14 days in the archive directory. (edit in the script as needed)
 - The cron entry schedules the script to run daily at 13:00 (1 PM).
 
-## Automatic Installation
-
+<details> 
+<summary>Automatic installation </summary>
+## Automatic installation
 ```bash
-sh -c "$(curl -L https://script.moelle.space/docker-aio)"
+sh -c "$(curl -L https://git.moelle.space/hxcde/folderarchive/raw/branch/main/install.sh)"
 ```
+</details> 
 
-
-## Manual Installation
+<details> 
+<summary>Manual installation </summary>
+## Manual installation
 Install git and zip
 ```bash
 apt install git zip -y
@@ -34,3 +37,4 @@ Add the following to cron to automate Backup
 ```bash
 0 13 * * * sh /path/to/script/zip_folder_daily.sh
 ```
+</details> 
