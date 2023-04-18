@@ -2,10 +2,12 @@
 
 cd /opt/
 echo "#!/bin/bash" > zip_folder_daily.sh
-echo "# Enter the directory to be zipped (e.g., /path/to/folder)" >> zip_folder_daily.sh
+echo "#Enter the directory to be zipped (e.g., /path/to/folder)" >> zip_folder_daily.sh
+echo "Enter the directory to be zipped (e.g., /path/to/folder)"
 read path
 echo "SOURCE_DIR=" '$path' " " >> zip_folder_daily.sh
 echo "# Enter the directory where the zipped files will be stored (e.g., /path/to/archive)" >> zip_folder_daily.sh
+echo "Enter the directory where the zipped files will be stored (e.g., /path/to/archive)"
 read archive
 echo "ARCHIVE_DIR=" '$archive' "" >> zip_folder_daily.sh
 echo "DATE=$(date +%Y-%m-%d)" >> zip_folder_daily.sh
