@@ -63,6 +63,8 @@ Clone the repository
 ```bash
 git clone https://git.moelle.space/hxcde/folderarchive.git
 ```
+Edit the zip_folder_daily.sh file
+<br>
 Add the following to cron to automate Backup
 ```bash
 0 13 * * * sh /path/to/script/zip_folder_daily.sh
