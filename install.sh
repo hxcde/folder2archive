@@ -1,5 +1,8 @@
 #!/bin/bash
-
+echo checking if Zip is installed
+apt-get install zip -y
+yum install zip -y
+apk add zip
 cd /opt/
 echo "#!/bin/bash" > zip_folder_daily.sh
 echo "#Enter the directory to be zipped (e.g., /path/to/folder)" >> zip_folder_daily.sh
