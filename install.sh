@@ -13,9 +13,9 @@ echo "ARCHIVE_DIR='"$archive"'" >> zip_folder_daily.sh
 echo "DATE=$(date +%Y-%m-%d)" >> zip_folder_daily.sh
 echo "zip -r "${ARCHIVE_DIR}/folder_${DATE}.zip" "${SOURCE_DIR}"" >> zip_folder_daily.sh
 echo "find "${ARCHIVE_DIR}" -name "folder_*.zip" -mtime +13 -exec rm {} \;" >> zip_folder_daily.sh
+sh /opt/zip_folder_daily.sh
 
-
-#crontab -l > mycron
-#echo "0 13 * * * sh /opt/folderarchive/zip_folder_daily.sh" >> mycron
-#crontab mycron
-#rm mycron
+crontab -l > mycron
+echo "0 13 * * * sh /opt/folderarchive/zip_folder_daily.sh" >> mycron
+crontab mycron
+rm mycron
