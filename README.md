@@ -53,3 +53,9 @@ Edit the file zip_folder_daily.sh `(If you used automatic install it's in /opt)`
 > find "${ARCHIVE_DIR}" -name "folder_*.zip" -mtime +`29` -exec rm {} \;
 
 </details> 
+
+<details> 
+<summary>Change the schedule </summary>
+<br>
+
+</details> 
