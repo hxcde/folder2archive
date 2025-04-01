@@ -17,6 +17,6 @@ curl https://git.moelle.space/hxcde/folder2archive/raw/branch/main/append >> zip
 sh /opt/zip_folder_daily.sh
 
 crontab -l > mycron
-echo "0 13 * * * sh /opt/folderarchive/zip_folder_daily.sh" >> mycron
+echo "0 13 * * * sh /opt/zip_folder_daily.sh" >> mycron
 crontab mycron
 rm mycron
